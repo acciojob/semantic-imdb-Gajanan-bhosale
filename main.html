@@ -4,10 +4,59 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {font-family: sans-serif; background-color:#f4f4f4; margin:0; padding: 0}
+		header { background: #333; color:#fff; padding: 1rem; text-align: center}
+		nav { background: #444; color: #fff; text-align: center; padding: 0.5rem; position: stick; top: 0}
+		nav a { color: #fff; margin:0 10px; text-decoration: none}
+		.container { padding: 20px}
+		section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 5px}
+		aside { background: #eee, padding: 20px; border-radius: 5px}
+		footer { text-align: center; padding: 10px; background: #333; color: #fff; margin-top: 20px}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+		<h1>Inception</h1>
+	</header>
+
+	<nav>
+		<a href="#actor" id="nav-actor">Actors</a>
+		<a href="#quote" id="nav-quote">Quotes</a>
+	</nav>
+
+	<div class="container">
+		<section id="plot-summary">
+			<h2>Summary</h2>
+			<summary>A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</summary>
+		</section>
+
+		<section id="actor">
+			<h2>Featured Actors</h2>
+			<ul>
+				<li>Leonardo DiCaprio (Dom Cobb)</li>
+                <li>Joseph Gordon-Levitt (Arthur)</li>
+                <li>Elliot Page (Ariadne)</li>
+			</ul>
+		</section>
+
+		<section id="quote">
+			<h2>Favourite Quote</h2>
+			<blockquote>"An idea is like a virus. Resilient. Highly contagious." - Cobb</blockquote>
+		</section>
+
+		<aside>
+			<h3>Movie details</h3>
+			<p><strong>IMDB Rating</strong>: 8.8/10</p>
+			<p><strong>Release Date</strong>: July 16, 2010</p>
+		</aside>
+	</div>
+
+	<footer>
+		<p>Produced by: Emma Thomas & Christopher Nolan</p>
+	</footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
